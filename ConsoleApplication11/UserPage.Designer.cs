@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
 
-namespace ConsoleApplication11 {
+namespace MMDABrowser {
 	partial class UserPage {
 		/// <summary>
 		/// Required designer variable.

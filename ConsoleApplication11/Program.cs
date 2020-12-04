@@ -3,7 +3,7 @@ using System.Net;
 using System.Windows.Forms;
 using Fizzler.Systems.HtmlAgilityPack;
 
-namespace ConsoleApplication11
+namespace MMDABrowser
 {
     class Program
     {

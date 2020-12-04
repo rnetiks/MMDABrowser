@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace ConsoleApplication11 {
+namespace MMDABrowser {
 	public partial class UserPage : Form {
 		public UserPage() {
 			InitializeComponent();

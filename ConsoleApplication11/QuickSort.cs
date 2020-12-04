@@ -1,4 +1,4 @@
-﻿namespace ConsoleApplication11 {
+﻿namespace MMDABrowser {
 	public class QuickSort {
 		private static int Partition(ref int[] arr, int low, int high)
 		{

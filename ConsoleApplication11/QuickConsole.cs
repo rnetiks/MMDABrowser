@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ConsoleApplication11 {
+namespace MMDABrowser {
 	public class QuickConsole
 	{
 		private static string cnt = string.Empty;

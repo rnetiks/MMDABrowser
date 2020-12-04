@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ConsoleApplication11 {
+namespace MMDABrowser {
 	public struct UserStruct {
 		public string Name;
 		public string JoinDate;
