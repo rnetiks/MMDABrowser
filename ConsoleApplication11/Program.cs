@@ -6,6 +6,7 @@ using System.Security.Cryptography;
 using System.Net.Http;
 using System.Text;
 using System.Collections.Generic;
+using MMDABrowser.Forms;
 
 namespace ConsoleApplication11
 {
@@ -54,6 +55,10 @@ namespace ConsoleApplication11
                 } else 
                     Console.WriteLine($"An Error occurred, please give the following message to a Web Admin:\n\n{req.StatusCode}{req.Version}{req.ReasonPhrase}");
             } while (p2 == p1);
+            Console.Clear();
+            Console.WriteLine("Login Successful");
+            var post = new Post();
+            Application.Run(post);
         }
     }
 
