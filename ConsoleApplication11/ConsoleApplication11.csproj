@@ -171,15 +171,40 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataFormats\LoginData.cs" />
     <Compile Include="DataFormats\UserStruct.cs" />
+    <Compile Include="Forms\Forum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Forum.Designer.cs">
+      <DependentUpon>Forum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Post.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Post.Designer.cs">
+      <DependentUpon>Post.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Posts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Posts.Designer.cs">
+      <DependentUpon>Posts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QuickConsole.cs" />
     <Compile Include="QuickSort.cs" />
-    <Compile Include="UserPage.cs">
+    <Compile Include="Forms\UserPage.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserPage.Designer.cs">
+    <Compile Include="Forms\UserPage.Designer.cs">
       <DependentUpon>UserPage.cs</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -188,7 +213,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="UserPage.resx">
+    <EmbeddedResource Include="Forms\UserPage.resx">
       <DependentUpon>UserPage.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
